@@ -1,7 +1,6 @@
 #include "stm32f7xx_hal.h"
 #include <FreeRTOS.h>
 #include <task.h>
-#include <stm32f7xx_hal_conf.h>
 
 #define LED_PIN                                GPIO_PIN_5
 #define LED_GPIO_PORT                          GPIOA
